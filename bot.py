@@ -46,7 +46,7 @@ async def cleartodos(update: Update, context):
 
 # Main function to run the bot
 async def main():
-    app = ApplicationBuilder().token('7403194359:AAGECbU4FFJXLufcavuk9SHut8GymkkB5hc').build()
+    app = ApplicationBuilder().token('Your_Bot_Token_Baby').build()
 
     # Register command handlers
     app.add_handler(CommandHandler("start", start))
